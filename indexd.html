@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- HTML FILE DECODER-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>DECODER DEMONSTRATOR</title>
+</head>
+<body>
+<div id="al">
+<a href="index.html">
+      <button id="button" >ENCODER</button>
+      </a>
+      </div>
+    <div id="border">
+        <div class="container">
+            <div id="vv">
+                <h1>DECODER DEMONSTRATOR</h1>
+            </div>
+            <form id="decodeForm">
+                <label id="t" for="encodedText">Enter Encoded Text:</label><br>
+                <input type="text" id="encodedText" name="encodedText" required><br>
+
+                <label id="t" for="decodingScheme">Choose a Decoding Scheme:</label><br>
+                <select id="decodingScheme" name="decodingScheme" required>
+                    <option value="base32">Base32</option>
+                    <option value="base64">Base64</option>
+                    <option value="ascii85">ASCII85 (Base85)</option>
+                </select><br>
+
+                <button id="ol" type="submit">Decode</button>
+            </form>
+
+            <div id="output">Decoded Text:</div>
+        </div>
+        <div id="steps">Steps:</div>
+    </div>
+        <script src="scriptd.js"></script>
+</body>
+</html>
+

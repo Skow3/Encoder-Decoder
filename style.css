@@ -1,0 +1,158 @@
+/*CREATED BY : SHIVAM KUMAR ROLL NO: 230103044
+  STARTED ON : 7th Sept  11:00 a.m
+  COMPLETED ON:  9th Sept 8:15 p.m
+  STYLESHEET FILE COMBINE
+*/
+body {
+            font-family: "New Amsterdam", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: black;
+        }
+
+        .container {
+            width: 500px;
+            padding: 40px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            background-color: white;
+            position: relative;
+            top: 100px;
+}
+
+        input, select, button {
+            width: 100%;
+            margin: 10px 0;
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        #output {
+            font-family: sans-serif;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            word-wrap: break-word;
+            font-size: 2rem;
+        }
+
+        #border {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: row;
+            width: 100vw;
+            height: 100%;
+            border: 10px solid #ccc;
+            animation: glow 3s infinite;
+}
+
+        #steps {
+            font-family: sans-serif;
+            margin-top: 20px;
+            width: 35rem;
+            padding: 15px;
+            background-color: #e0e0e0;
+            border: 4px solid white;
+            word-wrap: break-word;
+            font-size: 1rem;
+            color: black;
+            margin-left: 30px;
+            top: 100px;
+            border-radius: 10%;
+}
+
+        #vv {
+            position: relative;
+            padding: 0;
+            margin: 0;
+            font-size: 40px;
+            text-align: center;
+            text-shadow: 5px 5px lightblue;
+            animation: blink 3s infinite;
+            color: yellow;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+                text-shadow: 5px 5px lightblue;
+            }
+            25% {
+                opacity: 1;
+                text-shadow: 5px 5px orange;
+            }
+            50% {
+                text-shadow: 5px 5px red;
+            }
+            75% {
+                text-shadow: 5px 5px pink;
+            }
+            100% {
+                opacity: 1;
+                text-shadow: 5px 5px lightblue;
+            }
+        }
+        @keyframes glow {
+            0% {
+                opacity: 1;
+                border-color:lightblue;
+            }
+            25% {
+                opacity: 1;
+                border-color:orange;
+            }
+            50% {
+                border-color:red;
+            }
+            75% {
+                border-color:pink;
+            }
+            100% {
+                opacity: 1;
+                border-color:lightblue;
+            }
+        }
+
+        #t {
+            font-size: 2rem;
+        }
+        #button{
+            font-family: "Bebas Neue", sans-serif;
+            padding:0;
+            margin:0;
+            background-color: black;
+            color:white;
+            font-weight: 400;
+            font-style: normal;
+            position:absolute;
+            top: 20px;
+            left:20px;
+            width:5em;
+            border: 4px solid orange;
+            font-size: 2rem;
+            border-radius:50%;
+            z-index: 99 !important;  /* WHEN I ADDED THE BUTTON IT WAS NOT CLICKING ..IT WAS COVERED BY THE BORDER DIVISION .. SO i added z-index : 99 */
+            transition: background-color 0.5s ease, color 0.5s ease;
+            animation: glow 3s infinite;
+        }
+        #al :hover {
+            background-color: red;
+            color: black;
+        }
+        .ol{
+            background-color: black;
+            color: white;
+        }
+        .ol:hover {
+            background-color: red;
+            color: black;
+        }

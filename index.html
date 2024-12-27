@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- HTML FILE ENCODER-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ADDING FONT LINKS FROM GOOGLE-FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!-- Skowtech-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- FONT LINKS ADDED SUCCESSFULLY -->
+    <link href="style.css" rel="stylesheet">
+    <title>ENCODER DEMONSTRATOR</title>
+</head>
+<body>
+<div id="al">
+<a href="indexd.html">
+      <button id="button" >DECODER</button>
+      </a>
+      </div>
+    <div id="border">
+        <div class="container">
+        <div id="vv">
+            <h1>ENCODER DEMONSTRATOR</h1>
+        </div><!-- Skowtech-->
+            <form id="encodeForm">
+                <label id="t" for="a">Enter Text :</label><br>
+                <input type="text" id="a" name="a" required><br><!-- Skowtech-->
+
+                <label id="t" for="encodingScheme">Choose an Encoding Scheme :</label><br>
+                <select id="encodingScheme" name="encodingScheme" required>
+                    <option value="base32">Base32</option>
+                    <option value="base64">Base64</option>
+                    <option value="ascii85">ASCII85 (Base85)</option>
+                </select><br>
+
+                <button class="ol" type="submit">Encode</button>
+            </form>
+
+            <div id="output">Encoded Text :</div>
+        </div>
+        <div id="steps">Steps:</div>
+    </div>
+    <marquee> SKOWTECH </marquee>
+        <script src="scripte.js"></script>
+</body>
+</html>
+
